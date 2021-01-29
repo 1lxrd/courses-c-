@@ -11,7 +11,7 @@ int main()
 
 	while (a / 100000 != 0 || a / 10000 == 0)
 	{
-		cout << "¬ведите 5-значное число: ";
+		cout << "Please enter a 5 digit number: ";
 		cin >> a;
 	}
 
