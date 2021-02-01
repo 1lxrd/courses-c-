@@ -15,7 +15,8 @@ int main()
 		cin >> a;
 	}
 
-
+	a = a < 0 ? -a : a;
+	
 	int i = 0;
 	int j = 100000;
 
